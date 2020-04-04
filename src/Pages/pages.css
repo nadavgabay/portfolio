@@ -1,23 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore');
 
 
 .Typewriter, h1, h2 {
   font-size: 1.5em;
   color: #fff;
   line-height: 1.5em;
-  font-family: 'Open Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.Typewriter{
+  color: #fff;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+
+.top-tags {
+  font-family: 'La Belle Aurore';
 }
 
 h1 {
   font-size: 32px;
 }
 
+.h2-designed {
+  color: #bfbfbf;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif;
+    letter-spacing: 3px;
+    -webkit-animation: myanim2 1s 1.8s backwards;
+    animation: myanim2 1s 1.8s backwards;
+}
+
 textarea, select, input, button, a { outline: none; }
 
 .typingContainer{
-  width: 604px;
+  width: 533px;
   display: block;
-  margin: 0 auto;
+  margin: 15px 281px;
   padding-top: 140px;
 }
 
@@ -91,4 +114,62 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+
+.blast {
+  color: #fff;
+  border-radius: 5px;  
+  text-decoration: none;
+  display: inline-block;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 53px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+.blast:hover {
+  animation-name: rubberBand;
+  color: #08fdd8;
+}
+
+@keyframes rubberBand {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.rubberBand {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
 }
