@@ -1,14 +1,21 @@
-.aws-sld {
-  &--exit {
-    &.aws-sld--moveRight, &.aws-sld--moveLeft {
-      animation: scaleOut var(--slider-transition-duration) both
-        var(--transition-bezier);
+
+.#{$root-element} {
+  &--scaleOutAnimation {
+    --scale-out-scale: 0.85;
+
+    .#{$root-element} {
+      &--exit {
+        &.#{$root-element}--moveRight,
+        &.#{$root-element}--moveLeft {
+          animation: scaleOut var(--slider-transition-duration) both
+            var(--transition-bezier);
+        }
+      }
     }
   }
 }
 
 @keyframes scaleOut {
   to {
-    transform: scale(0.85);
+    transform: scale(var(--scale-out-scale));
   }
-}

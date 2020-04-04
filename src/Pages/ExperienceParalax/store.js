@@ -10,7 +10,7 @@ const state = {
       offset: 1,
       factor: 1.75,
       header: "INX Limited",
-      image: "/INX.png",
+      image: "/INX5.png",
       aspect: 1.51,
       text: "Full Stack developer. Been the 3'rd developer in the company.",
       years: "2020-Today",
@@ -20,7 +20,7 @@ const state = {
       offset: 2,
       factor: 2.0,
       header: "TradAir",
-      image: "/tnet6.png",
+      image: "/tnet2.png",
       aspect: 1.5,
       text:
         "Full Stack Team Leader, and senior Front End developer.",

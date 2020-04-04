@@ -30,11 +30,11 @@ export default function App() {
           <Route path="/experience">
             <ExperienceParallax />
           </Route>
-          <Route path="/">
-            <Home />
-          </Route>
           <Route path="/inx">
             <Inx />
+          </Route>
+          <Route path="/">
+            <Home />
           </Route>
         </Switch>
         </div>

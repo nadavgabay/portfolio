@@ -36,7 +36,7 @@ const Paragraph = ({ image, index, offset, factor, header, aspect, text, years, 
           {header}
         </Text>
         <Block factor={0.2}>
-          <Text opacity={0.5} size={w * 0.1} color="#fff" position={[((left ? w : -w) / 2) * size, (w * size) / aspect / 1.5, -10]}>
+          <Text opacity={0.5} size={w * 0.1} color="#fff" position={[((left ? w : -w) / 2) * size, (w * size) / aspect / 1.2, -10]}>
             {years || (index + 1)}
           </Text>
         </Block>
