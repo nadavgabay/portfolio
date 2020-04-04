@@ -1,26 +1,44 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Home from './Pages/Home'
+import { bubble as Menu } from 'react-burger-menu'
+import Skills from "./Pages/Skills";
+import ExperienceParallax from "./Pages/ExperienceParalax/ExperienceParallax";
+import Inx from './Pages/Jobs/Inx';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+    <div>
+        <Menu >
+        <a id="home" className="menu-item" href="/">Home</a>
+        <a id="skills" className="menu-item" href="/skills">Skills</a>
+        <a id="experience" className="menu-item" href="/experience">Experience</a>
+      </Menu>
+
+        {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+        <Switch>
+          <Route path="/skills">
+            <Skills />
+          </Route>
+          <Route path="/experience">
+            <ExperienceParallax />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+          <Route path="/inx">
+            <Inx />
+          </Route>
+        </Switch>
+        </div>
+    </Router>
   );
 }
 
-export default App;
