@@ -24,8 +24,8 @@ textarea, select, input, button, a { outline: none; }
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
-  width: 36px;
-  height: 30px;
+  width: 31px;
+  height: 17px;
   left: 36px;
   top: 36px;
 }
