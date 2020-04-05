@@ -18,6 +18,7 @@
 
 .top-tags {
   font-family: 'La Belle Aurore';
+  user-select: none;
 }
 
 h1 {
@@ -134,6 +135,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-family: 'Source Sans Pro', sans-serif;
+  user-select: none;
 
 }
 .blast:hover {

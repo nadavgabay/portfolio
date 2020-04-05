@@ -4,6 +4,8 @@ import Typewriter from 'typewriter-effect';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import styled from '@emotion/styled'
 import IconButton from '@material-ui/core/IconButton';
+import { keyframes } from '@emotion/core';
+import { bounceIn } from 'react-animations';
 
 const HomeContainer = styled.div`
   background: #1c1c1c;
@@ -15,6 +17,12 @@ const HomeContainer = styled.div`
 `;
 
 const Home = () => {
+  const rubberBandAnimation = keyframes`${bounceIn}`;
+
+  const RubberBandStyled = styled.div`
+    animation: 1.2s ${rubberBandAnimation};
+  `;
+
   return (
     <HomeContainer>
       <a href="mailto:nadavgabay2@gmail.com">
@@ -26,35 +34,35 @@ const Home = () => {
       <span class="tags top-tags" style={{position: 'absolute', top: '127px', left: '235px'}}> &nbsp;&nbsp;&nbsp;&lt;h1&gt;</span>
 
       <div className='typingContainer'>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>H</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>i</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>,</span>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>H</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>i</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>,</RubberBandStyled>
       <br/> 
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>I</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>’</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>m</span> 
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>I</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>’</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>m</RubberBandStyled> 
       &nbsp;&nbsp;
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>N</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>a</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>d</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>a</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>v</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>,</span>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>N</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>a</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>d</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>a</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>v</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>,</RubberBandStyled>
       <br/>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>w</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>e</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>b</span> 
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>w</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>e</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>b</RubberBandStyled> 
       &nbsp;&nbsp;
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>d</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>e</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>v</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>e</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>l</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>o</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>p</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>e</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>r</span>
-      <span className="blast" aria-hidden="true" style={{"opacity": '1'}}>.</span>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>d</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>e</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>v</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>e</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>l</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>o</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>p</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>e</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>r</RubberBandStyled>
+      <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>.</RubberBandStyled>
       <span class="tags top-tags" style={{position: 'absolute', top: '288px', left: '653px'}}> &nbsp;&nbsp;&nbsp;&lt;/h1&gt;</span>
 
       <h2 className='h2-designed'>I'm a Full Stack Developer who loves working in Frontend, I have
