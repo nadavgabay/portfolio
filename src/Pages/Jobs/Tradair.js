@@ -1,23 +1,22 @@
 import React from 'react'
 import JobPage from './JobPage';
 
-const Inx = () => {
+const Tradair = () => {
   const content = [
-    { title: 'Crypto Currencies Exchange', image: '/INX.png'},
-    { title: 'KYC Solution', image: '/INX3.png'},
-    { title: 'Reports', image: '/INX4.png'}
+    { title: 'Trading System', image: '/tnet3.png'},
+    { title: 'Customizeable', description: 'Full White Label support', image: '/tnet6.png'},
+    { title: 'BI', image: '/tla.png'},
+    { title: 'Analytics', image: '/tla3.png'},
   ];
 
-  const jobInfoTitle ="INX Limited"
-  const jobInfoSubTitle = "Full Stack Developer, Jan 2020 to Today"
+  const jobInfoTitle ="TradAir"
+  const jobInfoSubTitle = "Full Stack Team Leader,  Senior Front End Developer, Aug 2017-Jan 2020"
   const jobDescription = () => {
     return (
       <>
-      <li>Responsible for the analysis, design and programming of the mobile application in Objective C for iOS</li>
-      <li>In charge of the development of the application for Red5 in Java</li>
-      <li>Construction of the bot for optimization of video, audio and images of the platform</li>
-      <li>Creation of multiple APIs RESTful PHP</li>
-      <li>In charge of the graphical interface of vlooping.com</li>
+      <li>In charge of the front end development in the company</li>
+      <li>Responsible for the BI and analytics </li>
+      <li>Manage a full migration from Backbone.js to React</li>
       </>
     )
   }
@@ -73,6 +72,6 @@ const Inx = () => {
 
 }
 
-export default Inx
+export default Tradair
 
 

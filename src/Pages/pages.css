@@ -42,6 +42,8 @@ textarea, select, input, button, a { outline: none; }
   display: block;
   margin: 15px 281px;
   padding-top: 140px;
+  cursor: default;
+
 }
 
 /* Position and sizing of burger button */

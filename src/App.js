@@ -10,6 +10,7 @@ import { bubble as Menu } from 'react-burger-menu'
 import Skills from "./Pages/Skills";
 import ExperienceParallax from "./Pages/ExperienceParalax/ExperienceParallax";
 import Inx from './Pages/Jobs/Inx';
+import Tradair from './Pages/Jobs/Tradair';
 
 export default function App() {
   return (
@@ -32,6 +33,9 @@ export default function App() {
           </Route>
           <Route path="/inx">
             <Inx />
+          </Route>
+          <Route path="/tradair">
+            <Tradair />
           </Route>
           <Route path="/">
             <Home />

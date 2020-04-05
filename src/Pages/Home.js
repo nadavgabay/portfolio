@@ -61,8 +61,12 @@ const Home = () => {
               worked as a software developer since 2010.</h2>
       <Typewriter
         className='typewritter'
-        loop
-        deleteSpeed={1}
+        options={{
+          delay: 55,
+          deleteSpeed:1,
+          autoStart: true,
+          loop: true,
+        }}
         onInit={(typewriter) => {
           typewriter
             .typeString(`Coding is my passion 😎`)
@@ -72,7 +76,7 @@ const Home = () => {
             .pauseFor(600)
             .deleteAll()
             .typeString(`I'm a pretty fast learner and always interested in learning new technologies 🤓`)
-            .pauseFor(600)
+            .pauseFor(300)
             .deleteAll()
             .typeString(`I think one of my values is the <strong>ability to resolve problems<strong>`)
             .pauseFor(600)
