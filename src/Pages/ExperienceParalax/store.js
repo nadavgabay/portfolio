@@ -45,7 +45,7 @@ const state = {
       aspect: 1.665,
       text:
         "Backend developer, and Sigint specialist",
-      years: "2007-2013",
+      years: "2010-2013",
       link: "8200"
     },
     

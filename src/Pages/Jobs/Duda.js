@@ -21,6 +21,10 @@ const Tradair = () => {
 
   const skills = [
   {
+    title: "React",
+    url: '/react.png'
+  },
+  {
     title: "chai",
     url: 'https://christianibarguen.com/static/d49c0f2b33a8be79bf1c1d12be310a70/c0bbd/chai.png'
   },
@@ -40,6 +44,10 @@ const Tradair = () => {
   {
     title: "git",
     url: 'https://christianibarguen.com/static/c78f33195d7e6e9b89bd93f219fc2c01/c0bbd/git.png'
+  },
+  {
+    title: "selenium",
+    url: '/selenium.png'
   },
   ]
 

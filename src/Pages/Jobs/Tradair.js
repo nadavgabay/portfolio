@@ -24,8 +24,16 @@ const Tradair = () => {
 
   const skills = [
   {
+    title: "React",
+    url: '/react.png'
+  },
+  {
     title: "rabbit mq",
     url: 'https://christianibarguen.com/static/3879e0017f48964465fe367c57363fbc/c0bbd/rabbitmq.png'
+  },
+  {
+    title: "backbone JS",
+    url: '/backbone.png'
   },
   {
     title: "mongodb",

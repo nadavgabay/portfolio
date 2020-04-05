@@ -3,15 +3,15 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Home from './Pages/Home'
-import { bubble as Menu } from 'react-burger-menu'
+import { elastic as Menu } from 'react-burger-menu'
 import Skills from "./Pages/Skills";
 import ExperienceParallax from "./Pages/ExperienceParalax/ExperienceParallax";
 import Inx from './Pages/Jobs/Inx';
 import Tradair from './Pages/Jobs/Tradair';
 import Duda from './Pages/Jobs/Duda';
+import Army from './Pages/Jobs/8200';
 
 export default function App() {
   return (
@@ -40,6 +40,9 @@ export default function App() {
           </Route>
           <Route path="/duda">
             <Duda />
+          </Route>
+          <Route path="/8200">
+            <Army />
           </Route>
           <Route path="/">
             <Home />
