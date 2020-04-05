@@ -12,16 +12,19 @@ import Inx from './Pages/Jobs/Inx';
 import Tradair from './Pages/Jobs/Tradair';
 import Duda from './Pages/Jobs/Duda';
 import Army from './Pages/Jobs/8200';
+import Navbar from './Components/Navbar/Navbar';
 
 export default function App() {
   return (
     <Router>
     <div>
-        <Menu >
+        {/* <Menu >
         <a id="home" className="menu-item" href="/">Home</a>
         <a id="skills" className="menu-item" href="/skills">Skills</a>
         <a id="experience" className="menu-item" href="/experience">Experience</a>
-      </Menu>
+      </Menu> */}
+
+      <Navbar/>
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
