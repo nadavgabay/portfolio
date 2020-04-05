@@ -179,14 +179,14 @@ const NavBar = styled.div`
       <a rel="index" href="/" className="home-link active">
         <i className="icon-hom"></i>
       </a> 
+      <a rel="about" href="/about" className="">
+        <i className="icon-prof"></i>
+      </a>
       <a rel="skills" href="/skills" className="">
         <i className="icon-gear"></i>
       </a>
       <a rel="gallery" href="/experience" className="">
         <i className="icon-eye"></i>
-      </a>
-      <a rel="about" href="/about" className="">
-        <i className="icon-prof"></i>
       </a>
       <a rel="contact" href="/contact" className="">
         <i className="icon-mail"></i>
