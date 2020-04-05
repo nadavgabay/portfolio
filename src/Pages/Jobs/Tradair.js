@@ -3,7 +3,7 @@ import JobPage from './JobPage';
 
 const Tradair = () => {
   const content = [
-    { title: 'Trading System', image: '/tnet3.png'},
+    { title: 'Real Time Trading System', image: '/tnet3.png'},
     { title: 'Customizeable', description: 'Full White Label support', image: '/tnet6.png'},
     { title: 'BI', image: '/tla.png'},
     { title: 'Analytics', image: '/tla3.png'},
@@ -17,6 +17,7 @@ const Tradair = () => {
       <li>In charge of the front end development in the company</li>
       <li>Responsible for the BI and analytics </li>
       <li>Manage a full migration from Backbone.js to React</li>
+      <li>Design, Architecture and code projects</li>
       </>
     )
   }

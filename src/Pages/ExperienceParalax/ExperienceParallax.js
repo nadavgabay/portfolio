@@ -3,7 +3,7 @@ import React, { Suspense, useEffect, useRef, useMemo } from "react"
 import { Canvas, Dom, useLoader, useFrame } from "react-three-fiber"
 import { TextureLoader, LinearFilter } from "three"
 import lerp from "lerp"
-import { Text, MultilineText } from "../../Components/Text"
+import { Text } from "../../Components/Text"
 import Plane from "../../Components/Plane"
 import { Block, useBlock } from "./blocks"
 import state from "./store"
@@ -30,7 +30,7 @@ const Paragraph = ({ image, index, offset, factor, header, aspect, text, years, 
           style={{ width: pixelWidth / (mobile ? 1 : 2), textAlign: left ? "left" : "right" }}
           position={[left || mobile ? (-w * size) / 2 : 0, (-w * size) / 2 / aspect - 0.4, 1]}>
           <div tabIndex={index}>{text}</div>
-          <a data-link={link} href={`/${link}`}>Click Here for more details</a>
+          <a data-link={link} href={`/${link}`} style={{color: '#d40749', fontSize: '1.5em'}}>Click here for more details</a>
         </Dom>
         <Text left={left} right={!left} size={w * 0.04} color={color} top position={[((left ? -w : w) * size) / 2, (w * size) / aspect / 2 + 0.5, -1]}>
           {header}
