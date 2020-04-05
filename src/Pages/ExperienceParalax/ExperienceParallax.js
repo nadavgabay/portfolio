@@ -96,15 +96,6 @@ const ExperienceParallax = () => {
           <div key={index} id={"0" + index} style={{ height: `${(state.pages / state.sections) * 100}vh` }} />
         ))}
       </div>
-      <div className="frame">
-        <div className="frame__nav">
-          <a className="frame__link" href="#00" children="intro" />
-          <a className="frame__link" href="#01" children="01" />
-          <a className="frame__link" href="#02" children="02" />
-          <a className="frame__link" href="#03" children="03" />
-          <a className="frame__link" href="#04" children="04" />
-        </div>
-      </div>
     </>
   )
 }

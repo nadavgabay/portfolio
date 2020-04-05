@@ -41,7 +41,7 @@ const NavBar = styled.div`
 
   #nav_bar {
     background: #181818;
-    width: 75px;
+    width: 70px;
     height: 100%;
     position: absolute;
     top: 0;
@@ -139,7 +139,6 @@ const NavBar = styled.div`
   }
   .icon-eye:before {
     content: "visibility";
-    font-size: 17px;
   }
   #nav_bar nav a:first-child+a+a+a:after {
     content: 'EPRERIENCE';
