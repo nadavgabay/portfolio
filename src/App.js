@@ -13,6 +13,7 @@ import Tradair from './Pages/Jobs/Tradair';
 import Duda from './Pages/Jobs/Duda';
 import Army from './Pages/Jobs/8200';
 import Navbar from './Components/Navbar/Navbar';
+import About from './Pages/About';
 
 export default function App() {
   return (
@@ -31,6 +32,9 @@ export default function App() {
         <Switch>
           <Route path="/skills">
             <Skills />
+          </Route>
+          <Route path="/about">
+            <About />
           </Route>
           <Route path="/experience">
             <ExperienceParallax />

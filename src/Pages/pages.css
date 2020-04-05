@@ -41,9 +41,10 @@ textarea, select, input, button, a { outline: none; }
 .typingContainer{
   width: 533px;
   display: block;
-  margin: 10px 281px;
-  padding-top: 140px;
   cursor: default;
+  position: absolute;
+  top: 31vh;
+  left: 15vw;
 
 }
 

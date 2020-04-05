@@ -3,7 +3,6 @@ import styled from '@emotion/styled'
 
 const Navbar = () => {
 
-
 const NavBar = styled.div`
 &{
   #nav_bar ul {
@@ -77,13 +76,16 @@ const NavBar = styled.div`
     color: #08fdd8;
   }
   #nav_bar nav a {
-    font-size: 22px;
+    font-size: 31px;
     color: #4d4d4e;
     display: block;
     line-height: 51px;
     height: 51px;
     position: relative;
     text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
   }
   #nav_bar nav a i {
     -webkit-transition: all .3s ease-out;
@@ -107,7 +109,6 @@ const NavBar = styled.div`
   #nav_bar nav a:first-child:after {
     content: 'HOME';
     font-family: 'Source Sans Pro';
-
   }
   #nav_bar nav a:after {
     content: '';
@@ -176,20 +177,17 @@ const NavBar = styled.div`
           <img src="https://jacekjeznach.com/wp-content/themes/jj/img/logo_sub.png" alt="Wordpress Developer, Web Developer , Front End Developer"/> 
       </a> */}
       <nav className="en"> 
-      <a rel="index" href="/" className="home-link active">
+      <a rel="index" href="/" className="home-link">
         <i className="icon-hom"></i>
       </a> 
-      <a rel="about" href="/about" className="">
+      <a rel="about" href="/about" className="about-link">
         <i className="icon-prof"></i>
       </a>
-      <a rel="skills" href="/skills" className="">
+      <a rel="skills" href="/skills" className="skills-link">
         <i className="icon-gear"></i>
       </a>
-      <a rel="gallery" href="/experience" className="">
+      <a rel="gallery" href="/experience" className="eprerience-link">
         <i className="icon-eye"></i>
-      </a>
-      <a rel="contact" href="/contact" className="">
-        <i className="icon-mail"></i>
       </a>
       </nav>
       <ul>
