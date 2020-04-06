@@ -3,8 +3,8 @@ import JobPage from './JobPage';
 
 const Tradair = () => {
   const content = [
-    { title: 'Real Time Trading System', image: '/tnet3.png'},
-    { title: 'Customizeable', description: 'Full White Label support', image: '/tnet6.png'},
+    { title: 'Trading System', image: '/tnet3.png'},
+    { title: 'Customizeable', image: '/tnet6.png'},
     { title: 'BI', image: '/tla.png'},
     { title: 'Analytics', image: '/tla3.png'},
   ];
@@ -14,9 +14,10 @@ const Tradair = () => {
   const jobDescription = () => {
     return (
       <>
-      <li>In charge of the front end development in the company</li>
+      <li>In charge of the Front End development in the company</li>
       <li>Responsible for the BI and analytics </li>
-      <li>Manage a full migration from Backbone.js to React</li>
+      <li>Lead a team of Front End and Full Stack developers </li>
+      <li>Manage a full migration from Backbone.js to React in the main company product</li>
       <li>Design, Architecture and code projects</li>
       </>
     )
@@ -66,6 +67,10 @@ const Tradair = () => {
   {
     title: "css3",
     url: 'https://christianibarguen.com/static/b791dc60f67d8d5797e4331be32174b5/c0bbd/css3.png'
+  },
+  {
+    title: "jest",
+    url: '/jest.png'
   },
   {
     title: "aws ec2",

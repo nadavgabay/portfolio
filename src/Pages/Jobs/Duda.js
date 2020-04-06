@@ -36,7 +36,14 @@ const Tradair = () => {
     title: "html5",
     url: 'https://christianibarguen.com/static/d3fa1f96cf67ef88f3a688cef8917a19/c0bbd/html5.png'
   },
-
+  {
+    title: "js",
+    url: '/js.png'
+  },
+  {
+    title: "jquery",
+    url: '/jquery.png'
+  },
   {
     title: "css3",
     url: 'https://christianibarguen.com/static/b791dc60f67d8d5797e4331be32174b5/c0bbd/css3.png'
@@ -49,6 +56,10 @@ const Tradair = () => {
     title: "selenium",
     url: '/selenium.png'
   },
+  {
+    title: "applitools",
+    url: '/applitools.png'
+  }
   ]
 
   return <JobPage content={content} skills={skills} jobDescription={jobDescription} jobInfoSubTitle={jobInfoSubTitle} jobInfoTitle={jobInfoTitle} />

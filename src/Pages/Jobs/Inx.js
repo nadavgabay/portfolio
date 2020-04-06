@@ -13,11 +13,6 @@ const Inx = () => {
   const jobDescription = () => {
     return (
       <>
-      <li>Responsible for the analysis, design and programming of the mobile application in Objective C for iOS</li>
-      <li>In charge of the development of the application for Red5 in Java</li>
-      <li>Construction of the bot for optimization of video, audio and images of the platform</li>
-      <li>Creation of multiple APIs RESTful PHP</li>
-      <li>In charge of the graphical interface of vlooping.com</li>
       </>
     )
   }
@@ -48,8 +43,8 @@ const Inx = () => {
     url:  'https://christianibarguen.com/static/3da133eb73395e06173c47fd90a93b2d/c0bbd/nodejs.png'
   },
   {
-    title: "html5",
-    url: 'https://christianibarguen.com/static/d3fa1f96cf67ef88f3a688cef8917a19/c0bbd/html5.png'
+    title: "js",
+    url: '/js.png'
   },
   {
     title: "redux",
@@ -68,8 +63,12 @@ const Inx = () => {
     url: 'https://christianibarguen.com/static/029ae654975d9cde866dd6089a9095ae/c0bbd/aws-ec2.png'
   },
   {
-    title: "git",
-    url: 'https://christianibarguen.com/static/c78f33195d7e6e9b89bd93f219fc2c01/c0bbd/git.png'
+    title: "puppeteer",
+    url: '/puppeteer.png'
+  },
+  {
+    title: "redis",
+    url: '/redis.png'
   },
   ]
 

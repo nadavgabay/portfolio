@@ -43,6 +43,10 @@ const Army = () => {
       title: "MATH LAB",
       url: '/mathlab.png'
     },
+    {
+      title: "sqlite",
+      url: '/sqlite.png'
+    },
   ]
 
   return <JobPage content={content} skills={skills} jobDescription={jobDescription} jobInfoSubTitle={jobInfoSubTitle} jobInfoTitle={jobInfoTitle} />

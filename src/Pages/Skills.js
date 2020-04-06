@@ -1,4 +1,4 @@
-import React, {useEffect,useState} from 'react'
+import React from 'react'
 import styled from '@emotion/styled'
 import 'normalize.css';
 import IsometricGrid, { Cell } from 'react-isometric-grid';
@@ -142,9 +142,36 @@ const Skills = () => {
         ]}
       />
       <Cell
+      title="js"
+        layers={[
+          '/js.png',
+          '#9972fc',
+          '#c322a3',
+          '#9eb5c2',
+        ]}
+      />
+      <Cell
+      title="jQuery"
+        layers={[
+          '/jquery.png',
+          '#9972fc',
+          '#c322a3',
+          '#9eb5c2',
+        ]}
+      />
+      <Cell
       title="node"
         layers={[
           'https://christianibarguen.com/static/3da133eb73395e06173c47fd90a93b2d/c0bbd/nodejs.png',
+          '#9972fc',
+          '#c322a3',
+          '#9eb5c2',
+        ]}
+      />
+      <Cell
+      title="python"
+        layers={[
+          '/python.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -227,6 +254,26 @@ const Skills = () => {
         ]}
       />
       <Cell
+        title="backbone"
+        layers={[
+          '/backbone.png',
+          '#9972fc',
+          '#c322a3',
+          '#9eb5c2',
+          
+        ]}
+      />
+      <Cell
+        title="java"
+        layers={[
+          'https://christianibarguen.com/static/3ad043bf550e62d7bb61bfc304730c00/c0bbd/java.png',
+          '#9972fc',
+          '#c322a3',
+          '#9eb5c2',
+          
+        ]}
+      />
+      <Cell
       title="bootstrap"
         layers={[
           'https://christianibarguen.com/static/407768cdd2bde4915058b9827c5e85a3/c0bbd/bootstrap.png',
@@ -234,6 +281,25 @@ const Skills = () => {
           '#c322a3',
           '#9eb5c2',
           
+        ]}
+      />
+      <Cell
+      title="puppeteer"
+        layers={[
+          '/puppeteer.png',
+          '#9972fc',
+          '#c322a3',
+          '#9eb5c2',
+          
+        ]}
+      />
+      <Cell
+      title="photoshop"
+        layers={[
+          '/photoshop.png',
+          '#9972fc',
+          '#c322a3',
+          '#9eb5c2',
         ]}
       />
       <Cell
@@ -257,9 +323,19 @@ const Skills = () => {
         ]}
       />
       <Cell
-      title="java"
+      title="linux"
         layers={[
-          'https://christianibarguen.com/static/3ad043bf550e62d7bb61bfc304730c00/c0bbd/java.png',
+          'linux.png',
+          '#9972fc',
+          '#c322a3',
+          '#9eb5c2',
+          
+        ]}
+      />
+      <Cell
+      title="selenium"
+        layers={[
+          '/selenium.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -280,6 +356,26 @@ const Skills = () => {
       title="google analytics"
         layers={[
           ' https://christianibarguen.com/static/837979393477302a9d9abd657f7e942e/c0bbd/google-analytics.png',
+          '#9972fc',
+          '#c322a3',
+          '#9eb5c2',
+          
+        ]}
+      />
+      <Cell
+      title="C#"
+        layers={[
+          '/asp.png',
+          '#9972fc',
+          '#c322a3',
+          '#9eb5c2',
+          
+        ]}
+      />
+      <Cell
+      title="MATHLAB"
+        layers={[
+          '/mathlab.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
