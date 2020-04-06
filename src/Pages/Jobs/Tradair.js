@@ -3,6 +3,9 @@ import JobPage from './JobPage';
 
 const Tradair = () => {
   const content = [
+    { title: 'Trading System', image: '/tnet10.png'},
+    { title: 'Trading System', image: '/tnet11.png'},
+    { title: 'Trading System', image: '/tnet12.png'},
     { title: 'Trading System', image: '/tnet3.png'},
     { title: 'Customizeable', image: '/tnet6.png'},
     { title: 'BI', image: '/tla.png'},

@@ -27,13 +27,35 @@ h1 {
 
 .h2-designed {
   color: #bfbfbf;
-    margin-top: 20px;
-    font-weight: 400;
-    font-size: 14px;
-    font-family: "Open Sans",sans-serif;
-    letter-spacing: 3px;
-    -webkit-animation: myanim2 1s 1.8s backwards;
-    animation: myanim2 1s 1.8s backwards;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Open Sans",sans-serif;
+  letter-spacing: 3px;
+  -webkit-animation: myanim2 1s 1.8s backwards;
+  animation: myanim2 1s 1.8s backwards;
+}
+
+.typingContainer:before {
+  content: '<h1>';
+  font-family: 'La Belle Aurore';
+  -webkit-user-select: none;
+  user-select: none;
+  color: rgb(81, 81, 82);
+  position: absolute;
+  top: -11px;
+  left: -15px;
+}
+
+.typingContainer:after {
+  content: '</h1>';
+  font-family: 'La Belle Aurore';
+  -webkit-user-select: none;
+  user-select: none;
+  color: rgb(81, 81, 82);
+  position: absolute;
+  top: 203px;
+  left: 520px;
 }
 
 textarea, select, input, button, a { outline: none; }

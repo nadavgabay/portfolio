@@ -30,8 +30,6 @@ const Home = () => {
         </IconButton>
       </a>
       <span class="tags top-tags" style={{color: '#515152', position: 'absolute', top: '44px', left: '125px'}}> &nbsp;&nbsp;&nbsp;&lt;body&gt;</span>
-      <span class="tags top-tags" style={{color: '#515152', position: 'absolute', top: 'calc(30vh - 3px)', left: '235px'}}> &nbsp;&nbsp;&nbsp;&lt;h1&gt;</span>
-
       <div className='typingContainer'>
         <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>H</RubberBandStyled>
         <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>i</RubberBandStyled>
@@ -62,8 +60,6 @@ const Home = () => {
         <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>e</RubberBandStyled>
         <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>r</RubberBandStyled>
         <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>.</RubberBandStyled>
-        <span class="tags top-tags" style={{color: '#515152', position: 'absolute', top: 'calc(23vh - 9px)', left: 'calc(26vw - 2px)'}}> &nbsp;&nbsp;&nbsp;&lt;/h1&gt;</span>
-
         <h2 className='h2-designed'>I'm a Full Stack Developer who loves working in Frontend, I have
                 worked as a software developer since 2010.</h2>
         <Typewriter

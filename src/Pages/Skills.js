@@ -17,7 +17,6 @@ const SkillsContainer = styled.div`
     position: fixed;
     bottom: 0;
     right: 0;
-    top: calc(100vh - 800px);
     overflow: auto;
 `;
 
@@ -64,7 +63,6 @@ const Skills = () => {
     <SkillsContainer>
       <IsometricGrid
       shadow
-      // transform={`rotateX(45deg) rotateZ(45deg)  translateY(${scrollY})`}
       stackItemsAnimation={{
         properties: function(pos) {
           return {
@@ -85,10 +83,6 @@ const Skills = () => {
         },
       }}
       style={{ 
-        // height: '800px',
-        // width: '900px',
-        // transformStyle: 'preserve-3d',
-        // transform: `perspective(4868.8px) rotateX(31deg) rotateZ(-361deg) translateY(${scrollY})`,
         height: '800px',
         width: '900px',
         transformStyle: 'preserve-3d',
@@ -144,7 +138,7 @@ const Skills = () => {
       <Cell
       title="js"
         layers={[
-          '/js.png',
+          '/js1.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
