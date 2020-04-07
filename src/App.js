@@ -5,9 +5,8 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './Pages/Home'
-import { elastic as Menu } from 'react-burger-menu'
 import Skills from "./Pages/Skills";
-import ExperienceParallax from "./Pages/ExperienceParalax/ExperienceParallax";
+import ExperienceParallax from "./Pages/ExperienceParallax";
 import Inx from './Pages/Jobs/Inx';
 import Tradair from './Pages/Jobs/Tradair';
 import Duda from './Pages/Jobs/Duda';
@@ -19,14 +18,7 @@ export default function App() {
   return (
     <Router>
     <div>
-        {/* <Menu >
-        <a id="home" className="menu-item" href="/">Home</a>
-        <a id="skills" className="menu-item" href="/skills">Skills</a>
-        <a id="experience" className="menu-item" href="/experience">Experience</a>
-      </Menu> */}
-
       <Navbar/>
-
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>

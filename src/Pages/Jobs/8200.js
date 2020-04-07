@@ -13,7 +13,7 @@ const Army = () => {
   const jobDescription = () => {
     return (
       <>
-      <li>Develop enterprise intelligence software systems in collaboration with RAFAEL</li>
+      <li>Develop enterprise intelligence software systems in collaboration with <b>RAFAEL</b></li>
       <li>Perform system integration with partner departments </li>
       <li>Design and build Command and Control system  </li>
       <li>Build real time simulation system  </li>

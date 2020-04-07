@@ -3,11 +3,11 @@ import React, { Suspense, useEffect, useRef, useMemo } from "react"
 import { Canvas, Dom, useLoader, useFrame } from "react-three-fiber"
 import { TextureLoader, LinearFilter } from "three"
 import lerp from "lerp"
-import { Text } from "../../Components/Text"
-import Plane from "../../Components/Plane"
-import { Block, useBlock } from "./blocks"
-import state from "./store"
-import "./styles.css"
+import { Text } from "../Components/ExperienceParalax/Text"
+import Plane from "../Components/ExperienceParalax/Plane"
+import { Block, useBlock } from "../Components/ExperienceParalax/blocks"
+import state from "../Components/ExperienceParalax/store"
+import "./ExperienceParalax.css"
 
 const Startup = () => {
   const ref = useRef()
@@ -61,7 +61,7 @@ function Content() {
           </Text>
         </Block>
         <Block factor={1.0}>
-          <Dom position={[-w / 2.2, -w * 0.13 + 0.25, -2]}>Here you can find information about my work experience, these are some companies in which I have had the privilege of working.
+          <Dom  center position={[null, -w * 0.13 + 0.25, -2]}>Here you can find information about my work experience, these are some companies in which I have had the privilege of working.
             {mobile ? <br /> : " "}
           </Dom>
         </Block>

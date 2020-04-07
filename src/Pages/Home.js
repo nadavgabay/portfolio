@@ -1,5 +1,4 @@
 import React from 'react';
-import './pages.css';
 import Typewriter from 'typewriter-effect';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import styled from '@emotion/styled'
@@ -66,7 +65,7 @@ const Home = () => {
           className='typewritter'
           options={{
             delay: 55,
-            deleteSpeed:1,
+            deleteSpeed:30,
             autoStart: true,
             loop: true,
           }}
@@ -75,19 +74,19 @@ const Home = () => {
               .typeString(`Coding is my passion 😎`)
               .pauseFor(600)
               .deleteAll()
-              .typeString(`I'm a 🍕 lover`)
+              .typeString(`I'm a beer lover`)
               .pauseFor(600)
               .deleteAll()
-              .typeString(`I'm a pretty fast learner and always interested in learning new technologies 🤓`)
+              .typeString(`I'm a fast learner and always interested in learning new technologies`)
               .pauseFor(300)
               .deleteAll()
               .typeString(`I think one of my values is the <strong>ability to resolve problems<strong>`)
               .pauseFor(600)
               .deleteAll()
-              .typeString(`I like to share what I know 👨‍🏫`)
+              .typeString(`I'm marrie‍d 🙍 with two little kids 👶👶 and iRobot 🤖`)
               .pauseFor(600)
               .deleteAll()
-              .typeString(`I'm marrie‍d 🙍 with two little kids 👶👶 and iRobot 🤖`)
+              .typeString(`I like to share what I know`)
               .pauseFor(600)
               .deleteAll()
               .start();

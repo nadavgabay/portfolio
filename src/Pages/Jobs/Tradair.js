@@ -19,9 +19,10 @@ const Tradair = () => {
       <>
       <li>In charge of the Front End development in the company</li>
       <li>Responsible for the BI and analytics </li>
-      <li>Lead a team of Front End and Full Stack developers </li>
+      <li>Lead a team of Front End's and Full Stack's developers </li>
       <li>Manage a full migration from Backbone.js to React in the main company product</li>
       <li>Design, Architecture and code projects</li>
+      <li>Refactor big parts of the systems in order to handle the new increasing scale of the system </li>
       </>
     )
   }

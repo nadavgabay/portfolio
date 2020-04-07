@@ -1,9 +1,5 @@
 import React from 'react';
-import './pages.css';
-import Typewriter from 'typewriter-effect';
-import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import styled from '@emotion/styled'
-import IconButton from '@material-ui/core/IconButton';
 import { keyframes } from '@emotion/core';
 import { bounceIn } from 'react-animations';
 
