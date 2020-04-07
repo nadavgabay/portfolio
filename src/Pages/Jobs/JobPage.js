@@ -24,8 +24,8 @@ const JobInfo = styled.div`
 `;
 
 const JobDescription = styled.div`
-      padding: 15px 200px;
-    height: 160px;
+    padding: 15px 200px;
+    height: 175px;
     font-family: 'Futura PT','BlinkMacSystemFont','Segoe UI','Roboto','Helvetica Neue','Arial','Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
     font-weight: normal;
     font-kerning: normal;

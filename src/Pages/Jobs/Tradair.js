@@ -3,16 +3,16 @@ import JobPage from './JobPage';
 
 const Tradair = () => {
   const content = [
-    { title: 'Trading System', image: '/tnet10.png'},
-    { title: 'Trading System', image: '/tnet11.png'},
-    { title: 'Trading System', image: '/tnet12.png'},
-    { title: 'Trading System', image: '/tnet3.png'},
-    { title: 'Customizeable', image: '/tnet6.png'},
+    { image: '/tnet10.png'},
+    { image: '/tnet11.png'},
+    { image: '/tnet12.png'},
+    { image: '/tnet3.png'},
+    { image: '/tnet6.png'},
     { title: 'BI', image: '/tla.png'},
     { title: 'Analytics', image: '/tla3.png'},
   ];
 
-  const jobInfoTitle ="TradAir"
+  const jobInfoTitle ="TradAir - FX and Crypto Trading System"
   const jobInfoSubTitle = "Full Stack Team Leader,  Senior Front End Developer, Aug 2017-Jan 2020"
   const jobDescription = () => {
     return (
@@ -21,7 +21,7 @@ const Tradair = () => {
       <li>Responsible for the BI and analytics </li>
       <li>Lead a team of Front End's and Full Stack's developers </li>
       <li>Manage a full migration from Backbone.js to React in the main company product</li>
-      <li>Design, Architecture and code projects</li>
+      <li>Plan, Design, Architecture and code new parts of the systems</li>
       <li>Refactor big parts of the systems in order to handle the new increasing scale of the system </li>
       </>
     )

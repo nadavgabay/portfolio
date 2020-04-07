@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled'
 import { keyframes } from '@emotion/core';
-import { bounceIn } from 'react-animations';
+import { rubberBand } from 'react-animations';
 
 const HomeContainer = styled.div`
   background: #1c1c1c;
@@ -12,10 +12,10 @@ const HomeContainer = styled.div`
 `;
 
 const About = () => {
-  const rubberBandAnimation = keyframes`${bounceIn}`;
+  const rubberBandAnimation = keyframes`${rubberBand}`;
 
   const RubberBandStyled = styled.div`
-    animation: 1.7s ${rubberBandAnimation};
+    animation: 1s ${rubberBandAnimation};
     color: #08fdd8;
   `;
 
@@ -50,6 +50,8 @@ const About = () => {
     </TypingContainer>
     <span class="tags top-tags" style={{color: '#515152', position: 'absolute', bottom: '71px', left: '125px'}}> &nbsp;&nbsp;&nbsp;&lt;/body&gt;</span>
     <span class="tags top-tags" style={{color: '#515152', position: 'absolute', bottom: '41px', left: '100px'}}> &nbsp;&nbsp;&nbsp;&lt;/html&gt;</span>
+    <>
+  </>,
 
   </HomeContainer>
   )

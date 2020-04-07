@@ -4,7 +4,7 @@ import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import styled from '@emotion/styled'
 import IconButton from '@material-ui/core/IconButton';
 import { keyframes } from '@emotion/core';
-import { bounceIn } from 'react-animations';
+import { rubberBand } from 'react-animations';
 
 const HomeContainer = styled.div`
   background: #1c1c1c;
@@ -15,10 +15,10 @@ const HomeContainer = styled.div`
 `;
 
 const Home = () => {
-  const rubberBandAnimation = keyframes`${bounceIn}`;
+  const rubberBandAnimation = keyframes`${rubberBand}`;
 
   const RubberBandStyled = styled.div`
-    animation: 1.7s ${rubberBandAnimation};
+    animation: 1s ${rubberBandAnimation};
   `;
 
   return (

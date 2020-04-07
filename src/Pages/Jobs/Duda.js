@@ -3,14 +3,15 @@ import JobPage from './JobPage';
 
 const Tradair = () => {
   const content = [
-    { title: 'Web Site Builder', description: 'B2B solution for building fast and responsive', image: '/duda.gif'},
+    {  image: '/duda.gif'},
   ];
 
-  const jobInfoTitle ="Duda"
+  const jobInfoTitle ="Duda - Web Site Builder"
   const jobInfoSubTitle = "Graduated Full Stack Developer, Student Automation developer, Jul 2013-Aug 2017"
   const jobDescription = () => {
     return (
       <>
+      <li>'Build B2B solution for building fast and responsive websites',</li>
       <li>Been part of the team who built Duda's new editor using React</li>
       <li>Server Side programming using Java and Spring </li>
       <li>Enhancement and maintanance of the site builder system using jQuery and Ember </li>
