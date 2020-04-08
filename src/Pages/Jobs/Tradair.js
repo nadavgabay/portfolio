@@ -3,7 +3,6 @@ import JobPage from './JobPage';
 
 const Tradair = () => {
   const content = [
-    { image: '/tnet10.png'},
     { image: '/tnet11.png'},
     { image: '/tnet12.png'},
     { image: '/tnet3.png'},
@@ -29,10 +28,6 @@ const Tradair = () => {
 
   const skills = [
   {
-    title: "React",
-    url: '/react.png'
-  },
-  {
     title: "rabbit mq",
     url: 'https://christianibarguen.com/static/3879e0017f48964465fe367c57363fbc/c0bbd/rabbitmq.png'
   },
@@ -51,6 +46,10 @@ const Tradair = () => {
   {
     title:"rest",
     url: 'https://christianibarguen.com/static/fbc4dc69e0251695e79eb0b8ffbe604e/c0bbd/restful.png'
+  },
+  {
+    title: "React",
+    url: '/react.png'
   },
   {
     title: "node",

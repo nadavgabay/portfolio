@@ -86,6 +86,7 @@ const NavBar = styled.div`
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    cursor: pointer;
   }
   #nav_bar nav a i {
     -webkit-transition: all .3s ease-out;
@@ -172,6 +173,7 @@ const NavBar = styled.div`
   const Navbar = ({location}) => {
 
     const { pathname } = location;
+    const experiences = ['/experience', '/tradair', '/inx', '/8200', '/duda'];
 
     return (
       <NavBar>
@@ -187,7 +189,7 @@ const NavBar = styled.div`
           <a rel="skills" href="/skills" className={`skills-link ${pathname === '/skills' ? 'active': ''}`}>
             <i className="icon-gear"></i>
           </a>
-          <a rel="gallery" href="/experience" className={`eprerience-link ${pathname === '/experience' ? 'active': ''}`}>
+          <a rel="gallery" href="/experience" className={`eprerience-link ${experiences.includes(pathname) ? 'active': ''}`}>
             <i className="icon-eye"></i>
           </a>
           <a rel="about" href="/about" className={`about-link ${pathname === '/about' ? 'active': ''}`}>

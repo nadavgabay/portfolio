@@ -21,10 +21,10 @@ const Inx = () => {
   }
 
   const skills = [
-  {
-    title: "React",
-    url: '/react.png'
-  },
+    {
+      title: "chai",
+      url: 'https://christianibarguen.com/static/d49c0f2b33a8be79bf1c1d12be310a70/c0bbd/chai.png'
+    },
   {
     title: "rabbit mq",
     url: 'https://christianibarguen.com/static/3879e0017f48964465fe367c57363fbc/c0bbd/rabbitmq.png'
@@ -34,8 +34,8 @@ const Inx = () => {
     url: ' https://christianibarguen.com/static/ac78fbc2b9d061d2e5d515fbc2d03aa0/c0bbd/mongodb.png'
   },
   {
-    title: "chai",
-    url: 'https://christianibarguen.com/static/d49c0f2b33a8be79bf1c1d12be310a70/c0bbd/chai.png'
+    title: "React",
+    url: '/react.png'
   },
   {
     title:"rest",
@@ -64,6 +64,10 @@ const Inx = () => {
   {
     title: "aws ec2",
     url: 'https://christianibarguen.com/static/029ae654975d9cde866dd6089a9095ae/c0bbd/aws-ec2.png'
+  },
+  {
+    title: "elastic",
+    url: '/elastic.png'
   },
   {
     title: "puppeteer",

@@ -3,7 +3,7 @@ import { createRef } from "react"
 const state = {
   sections: 5,
   pages: 5,
-  zoom: 75,
+  zoom: 50,
   paragraphs: [
     {
       offset: 1,
@@ -17,7 +17,7 @@ const state = {
     },
     {
       offset: 2,
-      factor: 2.0,
+      factor: 1.75,
       header: "TradAir",
       image: "/tnet2.png",
       aspect: 1.5,
@@ -28,10 +28,10 @@ const state = {
     },
     {
       offset: 3,
-      factor: 2.25,
+      factor: 1.75,
       header: "Duda",
       image: "/duda.png",
-      aspect: 2.0037,
+      aspect: 1.51,
       text:
         "Full Stack developer, focused on the Front End side. And also a automation developer.",
       years: "2013-2017",
@@ -39,7 +39,7 @@ const state = {
     },
     {
       offset: 4,
-      factor: 2.0,
+      factor: 1.75,
       header: "8200 Unit",
       image: "/8200.jpg",
       aspect: 1.665,

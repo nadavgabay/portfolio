@@ -24,9 +24,10 @@ const Army = () => {
 
   const skills = [
     {
-      title: "Python",
-      url: '/python.png'
+      title: "Google Earth",
+      url: 'google_earth.png'
     },
+   
     {
       title: "C#",
       url: '/asp.png'
@@ -35,10 +36,7 @@ const Army = () => {
       title: "linux",
       url: '/linux.png'
     },
-    {
-      title: "Google Earth",
-      url: 'google_earth.png'
-    },
+    
     {
       title: "MATH LAB",
       url: '/mathlab.png'
@@ -46,6 +44,10 @@ const Army = () => {
     {
       title: "sqlite",
       url: '/sqlite.png'
+    },
+    {
+      title: "Python",
+      url: '/python.png'
     },
   ]
 
