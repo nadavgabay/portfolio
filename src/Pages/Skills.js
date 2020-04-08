@@ -57,7 +57,7 @@ const Skills = () => {
         Skills
       </TitleContainer>
       <SubTitile>
-      These are the skills that I have acquired through my years of experience working as a software developer, the order is based on the ones I like most and or I have used.
+      These are the skills that I have acquired through my years of experience working as a software developer, the order is based on the ones I like most or I have used.
       </SubTitile>
     </HeaderContainer>
     <SkillsContainer>
@@ -92,7 +92,7 @@ const Skills = () => {
       <Cell
       title="React"
         layers={[
-          'https://christianibarguen.com/static/7bc286d7d891a1ce709592e7219361d7/c0bbd/react.png',
+          '/react.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -101,7 +101,7 @@ const Skills = () => {
       <Cell
       title="Redux"
         layers={[
-          'https://christianibarguen.com/static/d400f061769c6643b7b824ae74620cf5/c0bbd/redux.png',
+          '/redux.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -110,7 +110,7 @@ const Skills = () => {
       <Cell
       title="Socket.io"
         layers={[
-          'https://christianibarguen.com/static/8dab92c9c5bb92a4b63aa83e4a928f92/c0bbd/socket-io.png',
+          '/socket-io.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -119,7 +119,7 @@ const Skills = () => {
       <Cell
       title="html5"
         layers={[
-          'https://christianibarguen.com/static/d3fa1f96cf67ef88f3a688cef8917a19/c0bbd/html5.png',
+          '/html5.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -129,7 +129,7 @@ const Skills = () => {
       <Cell
       title="css3"
         layers={[
-          'https://christianibarguen.com/static/b791dc60f67d8d5797e4331be32174b5/c0bbd/css3.png',
+          '/css3.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -156,7 +156,7 @@ const Skills = () => {
       <Cell
       title="node"
         layers={[
-          'https://christianibarguen.com/static/3da133eb73395e06173c47fd90a93b2d/c0bbd/nodejs.png',
+          '/nodejs.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -174,7 +174,7 @@ const Skills = () => {
       <Cell
       title="rest"
         layers={[
-          'https://christianibarguen.com/static/fbc4dc69e0251695e79eb0b8ffbe604e/c0bbd/restful.png',
+          '/restful.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -183,7 +183,7 @@ const Skills = () => {
       <Cell
       title="express"
         layers={[
-          'https://christianibarguen.com/static/88d85eaca76339ea6b33382c1c87f12c/c0bbd/expressjs.png',
+          '/expressjs.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -193,7 +193,7 @@ const Skills = () => {
       <Cell
       title="mocha"
         layers={[
-          'https://christianibarguen.com/static/97501fa8bda354982d09d6170ccf0b2f/c0bbd/mocha.png',
+          '/mocha.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -202,7 +202,7 @@ const Skills = () => {
       <Cell
       title="chai"
         layers={[
-          'https://christianibarguen.com/static/d49c0f2b33a8be79bf1c1d12be310a70/c0bbd/chai.png',
+          '/chai.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -211,7 +211,7 @@ const Skills = () => {
       <Cell
       title="mongodb"
         layers={[
-          ' https://christianibarguen.com/static/ac78fbc2b9d061d2e5d515fbc2d03aa0/c0bbd/mongodb.png',
+          '/mongodb.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -220,7 +220,7 @@ const Skills = () => {
       <Cell
       title="git"
         layers={[
-          'https://christianibarguen.com/static/c78f33195d7e6e9b89bd93f219fc2c01/c0bbd/git.png',
+          '/git.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -230,7 +230,7 @@ const Skills = () => {
       <Cell
       title="mysql"
         layers={[
-          'https://christianibarguen.com/static/29fe400f21fff1a034e062ed3e73a5fe/c0bbd/mysql.png',
+          '/mysql.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -240,7 +240,7 @@ const Skills = () => {
       <Cell
       title="jquery"
         layers={[
-          'https://christianibarguen.com/static/dda14781db15c1fbf23ed54d7a35b4f2/c0bbd/jquery.png',
+          '/jquery.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -260,7 +260,7 @@ const Skills = () => {
       <Cell
         title="java"
         layers={[
-          'https://christianibarguen.com/static/3ad043bf550e62d7bb61bfc304730c00/c0bbd/java.png',
+          '/java.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -270,7 +270,7 @@ const Skills = () => {
       <Cell
       title="bootstrap"
         layers={[
-          'https://christianibarguen.com/static/407768cdd2bde4915058b9827c5e85a3/c0bbd/bootstrap.png',
+          '/bootstrap.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -299,7 +299,7 @@ const Skills = () => {
       <Cell
       title="aws ec2"
         layers={[
-          'https://christianibarguen.com/static/029ae654975d9cde866dd6089a9095ae/c0bbd/aws-ec2.png',
+          '/aws-ec2.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -309,7 +309,7 @@ const Skills = () => {
       <Cell
       title="rabbit mq"
         layers={[
-          'https://christianibarguen.com/static/3879e0017f48964465fe367c57363fbc/c0bbd/rabbitmq.png',
+          '/rabbitmq.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -339,7 +339,7 @@ const Skills = () => {
       <Cell
       title="facebook api"
         layers={[
-          'https://christianibarguen.com/static/2dbbf1f85319f8b756e6504e585fc63e/c0bbd/facebook-api.png',
+          '/facebook-api.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
@@ -349,7 +349,7 @@ const Skills = () => {
       <Cell
       title="google analytics"
         layers={[
-          ' https://christianibarguen.com/static/837979393477302a9d9abd657f7e942e/c0bbd/google-analytics.png',
+          '/google-analytics.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',

@@ -27,7 +27,7 @@ const Tradair = () => {
   },
   {
     title: "chai",
-    url: 'https://christianibarguen.com/static/d49c0f2b33a8be79bf1c1d12be310a70/c0bbd/chai.png'
+    url: '/chai.png'
   },
   {
     title: "java",
@@ -35,11 +35,11 @@ const Tradair = () => {
   },
   {
     title:"rest",
-    url: 'https://christianibarguen.com/static/fbc4dc69e0251695e79eb0b8ffbe604e/c0bbd/restful.png'
+    url: '/restful.png'
   },
   {
     title: "html5",
-    url: 'https://christianibarguen.com/static/d3fa1f96cf67ef88f3a688cef8917a19/c0bbd/html5.png'
+    url: '/html5.png'
   },
   {
     title: "js",
@@ -51,11 +51,11 @@ const Tradair = () => {
   },
   {
     title: "css3",
-    url: 'https://christianibarguen.com/static/b791dc60f67d8d5797e4331be32174b5/c0bbd/css3.png'
+    url: '/css3.png'
   },
   {
     title: "git",
-    url: 'https://christianibarguen.com/static/c78f33195d7e6e9b89bd93f219fc2c01/c0bbd/git.png'
+    url: '/git.png'
   },
   {
     title: "selenium",
