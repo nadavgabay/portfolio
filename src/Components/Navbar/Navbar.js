@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from '@emotion/styled'
+import React,{ useState, useEffect, useRef } from "react";
+import { withRouter } from 'react-router';
 
-const Navbar = () => {
+import styled from '@emotion/styled'
 
 const NavBar = styled.div`
 &{
@@ -106,10 +106,7 @@ const NavBar = styled.div`
   .icon-hom:before {
         content: 'home';
   }
-  #nav_bar nav a:first-child:after {
-    content: 'HOME';
-    font-family: 'Source Sans Pro';
-  }
+ 
   #nav_bar nav a:after {
     content: '';
     font-size: 9px;
@@ -126,31 +123,36 @@ const NavBar = styled.div`
   .icon-prof:before {
     content: "assignment_ind";
   }
+  .icon-eye:before {
+    content: "visibility";
+  }
+  #nav_bar nav a:first-child:after {
+    content: 'HOME';
+    font-family: 'Source Sans Pro';
+  }
   #nav_bar nav a:first-child+a:after {
+    content: 'SKILLS';
+    font-family: 'Source Sans Pro';
+  }
+  #nav_bar nav a:first-child+a+a:after {
+    content: 'EPRERIENCE';
+    font-family: 'Source Sans Pro';
+  }
+  #nav_bar nav a:first-child+a+a+a:after {
     content: 'ABOUT';
+    font-family: 'Source Sans Pro';
+  }
+  #nav_bar nav a:first-child+a+a+a+a:after {
+    content: 'CONTACT';
     font-family: 'Source Sans Pro';
   }
   .icon-gear:before {
     content: "build";
   }
-  #nav_bar nav a:first-child+a+a:after {
-      content: 'SKILLS';
-      font-family: 'Source Sans Pro';
-  }
-  .icon-eye:before {
-    content: "visibility";
-  }
-  #nav_bar nav a:first-child+a+a+a:after {
-    content: 'EPRERIENCE';
-    font-family: 'Source Sans Pro';
-  }
+ 
   .icon-mail:before {
     content: "mail_outline";
     font-size: 18px;
-  }
-  #nav_bar nav a:first-child+a+a+a+a:after {
-    content: 'CONTACT';
-    font-family: 'Source Sans Pro';
   }
   #nav_bar nav a.active, #nav_bar nav a:hover {
     color: #08fdd8;
@@ -167,48 +169,51 @@ const NavBar = styled.div`
 }
 `;
 
+  const Navbar = ({location}) => {
 
-  return (
-    <NavBar>
-    <div id="nav_bar">
-      {/* <a className="logo" rel="index" href="https://jacekjeznach.com"> 
-          <img src="https://jacekjeznach.com/wp-content/themes/jj/img/logo.png" alt="Wordpress Developer Logo, Web Developer Logo , Front End Developer Logo"/> 
-          <img src="https://jacekjeznach.com/wp-content/themes/jj/img/logo_sub.png" alt="Wordpress Developer, Web Developer , Front End Developer"/> 
-      </a> */}
-      <nav className="en"> 
-      <a rel="index" href="/" className="home-link">
-        <i className="icon-hom"></i>
-      </a> 
-      <a rel="about" href="/about" className="about-link">
-        <i className="icon-prof"></i>
-      </a>
-      <a rel="skills" href="/skills" className="skills-link">
-        <i className="icon-gear"></i>
-      </a>
-      <a rel="gallery" href="/experience" className="eprerience-link">
-        <i className="icon-eye"></i>
-      </a>
-      </nav>
-      <ul>
-        <li>
-          <a href="https://twitter.com/gabaynadav" target="_blank">
-            <i className="fa fa-twitter"></i>
+    const { pathname } = location;
+
+    return (
+      <NavBar>
+      <div id="nav_bar">
+        {/* <a className="logo" rel="index" href="https://jacekjeznach.com"> 
+            <img src="https://jacekjeznach.com/wp-content/themes/jj/img/logo.png" alt="Wordpress Developer Logo, Web Developer Logo , Front End Developer Logo"/> 
+            <img src="https://jacekjeznach.com/wp-content/themes/jj/img/logo_sub.png" alt="Wordpress Developer, Web Developer , Front End Developer"/> 
+        </a> */}
+        <nav className="en"> 
+          <a rel="index" href="/" className={`home-link ${pathname === '/' ? 'active': ''}`}>
+            <i className="icon-hom"></i>
+          </a> 
+          <a rel="skills" href="/skills" className={`skills-link ${pathname === '/skills' ? 'active': ''}`}>
+            <i className="icon-gear"></i>
           </a>
-        </li>
-        <li>
-          <a href="https://pl.linkedin.com/in/nadav-gabay/" target="_blank">
-            <i className="fa fa-linkedin"></i>
+          <a rel="gallery" href="/experience" className={`eprerience-link ${pathname === '/experience' ? 'active': ''}`}>
+            <i className="icon-eye"></i>
           </a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/nadav.gabay" target="_blank">
-            <i className="fa fa-facebook"></i>
+          <a rel="about" href="/about" className={`about-link ${pathname === '/about' ? 'active': ''}`}>
+            <i className="icon-prof"></i>
           </a>
-        </li>
-      </ul>
-    </div>
-    </NavBar>
-  )
+        </nav>
+        <ul>
+          <li>
+            <a href="https://twitter.com/gabaynadav" target="_blank">
+              <i className="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://pl.linkedin.com/in/nadav-gabay/" target="_blank">
+              <i className="fa fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/nadav.gabay" target="_blank">
+              <i className="fa fa-facebook"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      </NavBar>
+    )
 }
 
-export default Navbar;
+export default withRouter(Navbar);

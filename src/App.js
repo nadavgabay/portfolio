@@ -11,19 +11,15 @@ import Inx from './Pages/Jobs/Inx';
 import Tradair from './Pages/Jobs/Tradair';
 import Duda from './Pages/Jobs/Duda';
 import Army from './Pages/Jobs/8200';
-import Navbar from './Components/Navbar/Navbar';
 import About from './Pages/About';
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
 
 export default function App() {
   return (
     <>
     <Navbar/>
-    <Router>
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
         <Switch>
-          
           <Route path="/skills" component={Skills} />
           <Route path="/about" component={About} />
           <Route path="/experience" component={ExperienceParallax}/>
@@ -32,8 +28,7 @@ export default function App() {
           <Route path="/duda" component={Duda}/>
           <Route path="/8200" component={Army}/>
           <Route path="/" component={Home}/>
-          </Switch>
-    </Router>
+        </Switch>
     </>
   );
 }

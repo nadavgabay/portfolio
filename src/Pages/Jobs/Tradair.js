@@ -84,6 +84,10 @@ const Tradair = () => {
     title: "git",
     url: 'https://christianibarguen.com/static/c78f33195d7e6e9b89bd93f219fc2c01/c0bbd/git.png'
   },
+  {
+    title: "java",
+    url: '/java.png'
+  },
   ]
 
   return <JobPage content={content} skills={skills} jobDescription={jobDescription} jobInfoSubTitle={jobInfoSubTitle} jobInfoTitle={jobInfoTitle} />

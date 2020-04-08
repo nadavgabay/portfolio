@@ -30,6 +30,10 @@ const Tradair = () => {
     url: 'https://christianibarguen.com/static/d49c0f2b33a8be79bf1c1d12be310a70/c0bbd/chai.png'
   },
   {
+    title: "java",
+    url: '/java.png'
+  },
+  {
     title:"rest",
     url: 'https://christianibarguen.com/static/fbc4dc69e0251695e79eb0b8ffbe604e/c0bbd/restful.png'
   },
