@@ -22,7 +22,7 @@ const state = {
       image: "/tnet2.png",
       aspect: 1.5,
       text:
-        "Full Stack Team Leader, and senior Front End developer.",
+        "Full Stack Team Leader, and Senior Front End developer.",
       years: "2017-2020",
       link: "tradair"
     },

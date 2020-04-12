@@ -15,6 +15,14 @@ const Startup = () => {
   return <Plane ref={ref} color="#0e0e0f" position={[0, 0, 200]} scale={[100, 100, 1]} />
 }
 
+const jumpTo = (e) => {
+    e.preventDefault();
+    debugger;
+    document.body.animate({ scrollTop: e.currentTarget.getAttribute('href').offsetTop}, 500, 'linear');
+    // $('html, body').animate({ scrollTop: e.currentTarget.getAttribute('href').offset().top}, 500, 'linear');
+  
+}
+
 const Paragraph = ({ image, index, offset, factor, header, aspect, text, years, link }) => {
   const { contentMaxWidth: w, canvasWidth, margin, mobile } = useBlock()
   const size = aspect < 1 && !mobile ? 0.65 : 1
@@ -30,7 +38,7 @@ const Paragraph = ({ image, index, offset, factor, header, aspect, text, years, 
           style={{ width: pixelWidth / (mobile ? 1 : 2), textAlign: left ? "left" : "right" }}
           position={[left || mobile ? (-w * size) / 2 : 0, (-w * size) / 2 / aspect - 0.4, 1]}>
           <div tabIndex={index}>{text}</div>
-          <a data-link={link} href={`/${link}`} style={{color: '#d40749', fontSize: '1.5em'}}>Click here for more details</a>
+          <a data-link={link} href={`/${link}`} style={{color: '#d40749', fontSize: '1.5em'}}>More details</a>
         </Dom>
         <Text left={left} right={!left} size={w * 0.04} color={color} top position={[((left ? -w : w) * size) / 2, (w * size) / aspect / 2 + 0.5, -1]}>
           {header}
@@ -56,6 +64,7 @@ function Content() {
     <>
       <Block factor={1} offset={0}>
         <Block factor={1.2}>
+
           <Text left size={w * 0.08} position={[-w / 1.9, 0.6, -1]} color="#d40749">
           Work Experience
           </Text>
@@ -63,8 +72,10 @@ function Content() {
         <Block factor={1.0}>
           <Dom  center position={[null, -w * 0.13 + 0.25, -2]}>Here you can find information about my work experience, these are some companies in which I have had the privilege of working.
             {mobile ? <br /> : " "}
+              <a className="frame__link" href={`#01`} children={'Scroll'} />
           </Dom>
         </Block>
+
       </Block>
     
       {state.paragraphs.map((props, index) => (
@@ -81,19 +92,22 @@ function Content() {
 
 const ExperienceParallax = () => {
   const scrollArea = useRef()
-  const onScroll = e => (state.top.current = e.target.scrollTop)
+  const onScroll = e => (state.top.current = e.target.scrollTop - 100)
   useEffect(() => void onScroll({ target: scrollArea.current }), [])
   return (
     <>
       <Canvas style={{height: '100vh', width: '100vw'}} className="canvas" concurrent pixelRatio={1} orthographic camera={{ zoom: state.zoom, position: [0, 0, 500] }}>
         <Suspense fallback={<Dom center className="loading" children="Loading..." />}>
+        
           <Content />
           <Startup />
         </Suspense>
       </Canvas>
       <div className="scrollArea" ref={scrollArea} onScroll={onScroll}>
         {new Array(state.sections).fill().map((_, index) => (
+          <>
           <div key={index} id={"0" + index} style={{ height: `${(state.pages / state.sections) * 100}vh` }} />
+          </>
         ))}
       </div>
     </>

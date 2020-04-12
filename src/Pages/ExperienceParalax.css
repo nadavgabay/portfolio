@@ -119,6 +119,64 @@ a:hover {
   .frame__link {
     pointer-events: auto;
   }
+  .frame__link:before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-sizing: border-box;
+    left: 50%;;
+    bottom: -75px;
+  }
+  .frame__link:after {
+    position: absolute;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: 12px;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: sdb10 2s infinite;
+    animation: sdb10 2s infinite;
+    box-sizing: border-box;
+    bottom: -39px;
+
+  }
+  @-webkit-keyframes sdb10 {
+    0% {
+      -webkit-transform: translate(0, 0);
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
+    80% {
+      -webkit-transform: translate(0, 20px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes sdb10 {
+    0% {
+      transform: translate(0, 0);
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
+    80% {
+      transform: translate(0, 20px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
   .frame__nav {
     grid-area: nav;
 		justify-self: end;
