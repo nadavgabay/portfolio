@@ -86,7 +86,7 @@ const Skills = () => {
         height: '800px',
         width: '900px',
         transformStyle: 'preserve-3d',
-        transform: `perspective(3000px) scale3d(0.8, 0.8, 3) rotateY(-28deg) rotateZ(41deg) rotateX(48deg)`,
+        transform: `perspective(5100px) scale3d(0.8, 0.8, 3) rotateY(-28deg) rotateZ(41deg) rotateX(48deg)`,
     }}
     >
       <Cell

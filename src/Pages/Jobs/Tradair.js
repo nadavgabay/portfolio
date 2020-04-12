@@ -36,10 +36,6 @@ const Tradair = () => {
     url: '/backbone.png'
   },
   {
-    title: "mongodb",
-    url: '/mongodb.png'
-  },
-  {
     title: "chai",
     url: '/chai.png'
   },
@@ -50,6 +46,14 @@ const Tradair = () => {
   {
     title: "React",
     url: '/react.png'
+  },
+  {
+    title: "jquery",
+    url: '/jquery.png'
+  },
+  {
+    title: "java script",
+    url: '/js1.png'
   },
   {
     title: "node",
