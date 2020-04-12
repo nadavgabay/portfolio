@@ -39,10 +39,10 @@ const state = {
     },
     {
       offset: 4,
-      factor: 1.75,
+      factor: 1,
       header: "8200 Unit",
       image: "/8200.jpg",
-      aspect: 1.665,
+      aspect: 1.965,
       text:
         "Backend developer, and Sigint specialist",
       years: "2010-2013",

@@ -15,14 +15,6 @@ const Startup = () => {
   return <Plane ref={ref} color="#0e0e0f" position={[0, 0, 200]} scale={[100, 100, 1]} />
 }
 
-const jumpTo = (e) => {
-    e.preventDefault();
-    debugger;
-    document.body.animate({ scrollTop: e.currentTarget.getAttribute('href').offsetTop}, 500, 'linear');
-    // $('html, body').animate({ scrollTop: e.currentTarget.getAttribute('href').offset().top}, 500, 'linear');
-  
-}
-
 const Paragraph = ({ image, index, offset, factor, header, aspect, text, years, link }) => {
   const { contentMaxWidth: w, canvasWidth, margin, mobile } = useBlock()
   const size = aspect < 1 && !mobile ? 0.65 : 1
@@ -72,7 +64,7 @@ function Content() {
         <Block factor={1.0}>
           <Dom  center position={[null, -w * 0.13 + 0.25, -2]}>Here you can find information about my work experience, these are some companies in which I have had the privilege of working.
             {mobile ? <br /> : " "}
-              <a className="frame__link" href={`#01`} children={'Scroll'} />
+              <a className="frame__link" href={`#01`} />
           </Dom>
         </Block>
 
