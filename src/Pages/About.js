@@ -2,6 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled'
 import { keyframes } from '@emotion/core';
 import { rubberBand } from 'react-animations';
+import City from '../Components/City/City';
 
 const HomeContainer = styled.div`
   background: #1c1c1c;
@@ -50,6 +51,18 @@ const About = () => {
     </TypingContainer>
     <span class="tags top-tags" style={{color: '#515152', position: 'absolute', bottom: '71px', left: '125px'}}> &nbsp;&nbsp;&nbsp;&lt;/body&gt;</span>
     <span class="tags top-tags" style={{color: '#515152', position: 'absolute', bottom: '41px', left: '100px'}}> &nbsp;&nbsp;&nbsp;&lt;/html&gt;</span>
+    <div style={{
+      margin: 0,
+      padding: 0,
+      overflow: 'hidden',
+      width: '100vw',
+      height: '100vh',
+      position: 'absolute',
+      right: 0,
+      top: '0'
+    }}>
+    {/* <City /> */}
+    </div>
     <>
   </>,
 

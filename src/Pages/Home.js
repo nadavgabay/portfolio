@@ -45,6 +45,8 @@ const Home = () => {
         <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>v</RubberBandStyled>
         <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>,</RubberBandStyled>
         <br/>
+        <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>a</RubberBandStyled>
+        &nbsp;&nbsp;
         <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>w</RubberBandStyled>
         <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>e</RubberBandStyled>
         <RubberBandStyled className="blast" aria-hidden="true" style={{"opacity": '1'}}>b</RubberBandStyled> 
@@ -65,29 +67,29 @@ const Home = () => {
           className='typewritter'
           options={{
             delay: 55,
-            deleteSpeed:30,
+            deleteSpeed:10,
             autoStart: true,
             loop: true,
           }}
           onInit={(typewriter) => {
             typewriter
               .typeString(`Coding is my passion 😎`)
-              .pauseFor(600)
+              .pauseFor(300)
               .deleteAll()
               .typeString(`I'm a beer lover`)
-              .pauseFor(600)
+              .pauseFor(300)
               .deleteAll()
               .typeString(`I'm a fast learner and always interested in learning new technologies`)
               .pauseFor(300)
               .deleteAll()
-              .typeString(`I think one of my values is the <strong>ability to resolve problems<strong>`)
-              .pauseFor(600)
+              .typeString(`One of my values is the <strong>ability to resolve problems<strong>`)
+              .pauseFor(300)
               .deleteAll()
-              .typeString(`I'm marrie‍d 🙍 with two little kids 👶👶 and iRobot 🤖`)
-              .pauseFor(600)
+              .typeString(`I'm marrie‍d 🙍 with two little kids 👶👶 and an iRobot 🤖`)
+              .pauseFor(300)
               .deleteAll()
               .typeString(`I like to share what I know`)
-              .pauseFor(600)
+              .pauseFor(300)
               .deleteAll()
               .start();
           }}

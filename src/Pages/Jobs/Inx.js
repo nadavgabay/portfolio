@@ -14,7 +14,7 @@ const Inx = () => {
     return (
       <>
         <li>Built the first Regulatory Crypto Exchange System</li>
-        <li>Deal with large scale system </li>
+        <li>Responsible for large scale system </li>
         <li>Responsible for the front end in the company </li>
       </>
     )

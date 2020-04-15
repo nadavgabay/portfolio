@@ -136,7 +136,7 @@ const NavBar = styled.div`
     font-family: 'Source Sans Pro';
   }
   #nav_bar nav a:first-child+a+a:after {
-    content: 'EPRERIENCE';
+    content: 'EXPERIENCE';
     font-family: 'Source Sans Pro';
   }
   #nav_bar nav a:first-child+a+a+a:after {

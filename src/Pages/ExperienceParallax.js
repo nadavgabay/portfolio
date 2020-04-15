@@ -62,7 +62,7 @@ function Content() {
           </Text>
         </Block>
         <Block factor={1.0}>
-          <Dom  center position={[null, -w * 0.13 + 0.25, -2]}>Here you can find information about my work experience, these are some companies in which I have had the privilege of working.
+          <Dom  center position={[null, -w * 0.13 + 0.25, -2]}>I have worked in software development for over 10 years. Here are a few of the companies where I have had the privilege of working.
             {mobile ? <br /> : " "}
               <a className="frame__link" href={`#01`} />
           </Dom>

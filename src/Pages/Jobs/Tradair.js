@@ -16,12 +16,12 @@ const Tradair = () => {
   const jobDescription = () => {
     return (
       <>
-      <li>In charge of the Front End development in the company</li>
+      <li>Team lead for Front End development</li>
       <li>Responsible for the BI and analytics </li>
       <li>Lead a team of Front End's and Full Stack's developers </li>
-      <li>Manage a full migration from Backbone.js to React in the main company product</li>
-      <li>Plan, Design, Architecture and code new parts of the systems</li>
-      <li>Refactor big parts of the systems in order to handle the new increasing scale of the system </li>
+      <li>Managed a full migration from Backbone.js to React for the main company product</li>
+      <li>Planned, designed, and coded new parts of multiple products</li>
+      <li>Oversaw major system refactor to handle increasing scale and traffic </li>
       </>
     )
   }

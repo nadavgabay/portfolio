@@ -11,7 +11,7 @@ const state = {
       header: "INX Limited",
       image: "/INX5.png",
       aspect: 1.51,
-      text: "Full Stack developer. Been the 3'rd developer in the company.",
+      text: "Full Stack developer. 3rd developer to join the company.",
       years: "2020-Today",
       link: "inx"
     },
@@ -44,7 +44,7 @@ const state = {
       image: "/8200.jpg",
       aspect: 1.965,
       text:
-        "Backend developer, and Sigint specialist",
+        "Backend developer and SIGINT specialist",
       years: "2010-2013",
       link: "8200"
     },

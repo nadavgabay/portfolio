@@ -56,7 +56,7 @@ const [overflow, setOverflow] = useState('hidden')
         Skills
       </TitleContainer>
       <SubTitile>
-      These are the skills that I have acquired through my years of experience working as a software developer, the order is based on the ones I like most or I have used.
+      In my years of software development I have worked with a number of technologies and stacks. This is a selection of software I have used to solve problems and squash bugs, in order of favorite and most familiar.
       </SubTitile>
     </HeaderContainer>
     <SkillsContainer overflow={overflow}>
