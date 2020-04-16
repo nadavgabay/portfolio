@@ -5,6 +5,9 @@ import { keyframes } from '@emotion/core';
 import { rubberBand } from 'react-animations';
 // import City from '../Components/City/City';
 import { useSpring, animated as a, interpolate } from 'react-spring'
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
+import PhoneOutlined from '@material-ui/icons/PhoneOutlined';
+import IconButton from '@material-ui/core/IconButton';
 
 const HomeContainer = styled.div`
   background: #1c1c1c;
@@ -70,9 +73,19 @@ const About = () => {
         <h2 className='h2-designed'>Professionally connected with the web development industry and information technology for many years.</h2>
         <h2 className='h2-designed'>Well-organised person, problem solver, know and love to lead teams, independent employee with high attention to detail. Fan of photography, outdoor activities, TV series and fantasy books. A family person, father of two amazing kids.</h2>
         
+        <a href="mailto:nadavgabay2@gmail.com" style={{color: 'white',height: '31px', marginTop: '50px', padding: 0}} >
+          <IconButton color="primary" aria-label="upload picture" component="span" style={{color: 'white', padding: '0 20px 0 0'}}>
+              <MailOutlineIcon  href="mailto:name@email.com"  />
+          </IconButton>
+          Nadavgabay2@gmail.com
+        </a>
+  
     </TypingContainer>
     <span class="tags top-tags" style={{color: '#515152', position: 'absolute', bottom: '71px', left: '125px'}}> &nbsp;&nbsp;&nbsp;&lt;/body&gt;</span>
     <span class="tags top-tags" style={{color: '#515152', position: 'absolute', bottom: '41px', left: '100px'}}> &nbsp;&nbsp;&nbsp;&lt;/html&gt;</span>
+    
+  
+
     {/* <div style={{
       margin: 0,
       padding: 0,

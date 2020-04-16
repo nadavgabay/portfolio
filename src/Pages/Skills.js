@@ -109,15 +109,6 @@ const [overflow, setOverflow] = useState('hidden')
         ]}
       />
       <Cell
-      title="Socket.io"
-        layers={[
-          '/socket-io.png',
-          '#9972fc',
-          '#c322a3',
-          '#9eb5c2',
-        ]}
-      />
-      <Cell
       title="html5"
         layers={[
           '/html5.png',
@@ -204,6 +195,15 @@ const [overflow, setOverflow] = useState('hidden')
       title="chai"
         layers={[
           '/chai.png',
+          '#9972fc',
+          '#c322a3',
+          '#9eb5c2',
+        ]}
+      />
+      <Cell
+        title="Socket.io"
+        layers={[
+          '/socket-io.png',
           '#9972fc',
           '#c322a3',
           '#9eb5c2',
