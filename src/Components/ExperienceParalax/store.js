@@ -7,7 +7,7 @@ const state = {
   paragraphs: [
     {
       offset: 1,
-      factor: 1.75,
+      factor: 1.3,
       header: "INX Limited",
       image: "/INX5.png",
       aspect: 1.51,

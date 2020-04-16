@@ -3,7 +3,6 @@ import styled from '@emotion/styled'
 import 'normalize.css';
 import IsometricGrid, { Cell } from 'react-isometric-grid';
 import dynamics from 'dynamics.js';
-import useWindowScroll from '@react-hook/window-scroll'
 import { useState } from 'react';
 
 const PageContainer = styled.div`

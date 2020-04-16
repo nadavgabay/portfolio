@@ -80,6 +80,7 @@
     "semver": "6.3.0",
     "style-loader": "0.23.1",
     "styled-components": "^5.0.1",
+    "svg-inline-react": "^3.2.0",
     "terser-webpack-plugin": "2.3.5",
     "three": "^0.115.0",
     "ts-pnp": "1.1.6",
@@ -164,5 +165,10 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-plugin-transform-react-jsx": "^6.24.1"
   }
 }

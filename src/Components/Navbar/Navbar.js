@@ -1,4 +1,4 @@
-import React,{ useState, useEffect, useRef } from "react";
+import React from "react";
 import { withRouter } from 'react-router';
 
 import styled from '@emotion/styled'
@@ -84,7 +84,6 @@ const NavBar = styled.div`
     position: relative;
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     cursor: pointer;
   }
@@ -95,7 +94,6 @@ const NavBar = styled.div`
   [class^=icon-], [class*=" icon-"] {
     /* font-family: 'icomoon' !important; */
     font-family: 'Material Icons' !important;
-    speak: none;
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
@@ -198,17 +196,17 @@ const NavBar = styled.div`
         </nav>
         <ul>
           <li>
-            <a href="https://twitter.com/gabaynadav" target="_blank">
+            <a href="https://twitter.com/gabaynadav" rel="noopener noreferrer" target="_blank">
               <i className="fa fa-twitter"></i>
             </a>
           </li>
           <li>
-            <a href="https://pl.linkedin.com/in/nadav-gabay/" target="_blank">
+            <a href="https://pl.linkedin.com/in/nadav-gabay/" rel="noopener noreferrer" target="_blank">
               <i className="fa fa-linkedin"></i>
             </a>
           </li>
           <li>
-            <a href="https://www.facebook.com/nadav.gabay" target="_blank">
+            <a href="https://www.facebook.com/nadav.gabay" rel="noopener noreferrer" target="_blank">
               <i className="fa fa-facebook"></i>
             </a>
           </li>

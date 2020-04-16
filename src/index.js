@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-escape */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

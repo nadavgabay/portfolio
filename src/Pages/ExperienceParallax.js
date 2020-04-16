@@ -1,4 +1,3 @@
-import ReactDOM from "react-dom"
 import React, { Suspense, useEffect, useRef, useMemo } from "react"
 import { Canvas, Dom, useLoader, useFrame } from "react-three-fiber"
 import { TextureLoader, LinearFilter } from "three"
@@ -51,23 +50,22 @@ function Content() {
     state.paragraphs.map(({ image }) => image)
   )
   useMemo(() => images.forEach(texture => (texture.minFilter = LinearFilter)), [images])
-  const { contentMaxWidth: w, canvasWidth, canvasHeight, mobile } = useBlock()
+  const { contentMaxWidth: w, mobile } = useBlock()
   return (
     <>
       <Block factor={1} offset={0}>
         <Block factor={1.2}>
 
-          <Text left size={w * 0.08} position={[-w / 1.9, 0.6, -1]} color="#d40749">
+          <Text left size={w * 0.08} position={[-w / 1.9, 1, -1]} color="#d40749">
           Work Experience
           </Text>
         </Block>
         <Block factor={1.0}>
-          <Dom  center position={[null, -w * 0.13 + 0.25, -2]}>I have worked in software development for over 10 years. Here are a few of the companies where I have had the privilege of working.
+          <Dom  center position={[null, -w * 0.13 + 0.25, -2]}>I have worked in software development for over 10 years. Here are a few of the companies where I have had the privilege of working
             {mobile ? <br /> : " "}
-              <a className="frame__link" href={`#01`} />
+              <a className="frame__link" href={`#01`} >.</a>
           </Dom>
         </Block>
-
       </Block>
     
       {state.paragraphs.map((props, index) => (
